@@ -14,5 +14,6 @@ private api = 'https://angular-ajax.000webhostapp.com/wp-json/wp/v2/posts';
 
       return this.http.get(this.api);
     }
+    public article:number;
    }
 
