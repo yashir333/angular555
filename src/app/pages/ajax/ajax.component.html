@@ -1,0 +1,9 @@
+<p>home</p>
+<ul>
+    
+    <li *ngFor='let x of articles' (click)="get_contains(x.id)">
+        <h1>{{x.title.rendered}}</h1>
+  <!--      <p>{{x.content.rendered}}</p>-->
+
+    </li>
+</ul>
